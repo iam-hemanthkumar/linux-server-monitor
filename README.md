@@ -10,6 +10,14 @@ It checks:
 
 The script also saves the results to a log file and can run automatically using cron.
 
+## Demo
+
+Monitor output and the latest timestamped log entry.
+
+![Linux Server Monitor showing resource checks and a timestamped log entry](https://github.com/user-attachments/assets/1da72b15-feb1-43e9-bcc4-665dfc22b214)
+
+
+
 ## Features
 
 - Disk usage warning at 80% or higher
