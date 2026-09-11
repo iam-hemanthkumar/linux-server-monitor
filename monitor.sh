@@ -1,6 +1,7 @@
 #!/bin/bash
 
-LOG_FILE="monitor.log"
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+LOG_FILE="$SCRIPT_DIR/monitor.log"
 TIME_STAMP=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S')
 
 # Append the current timestamp to the log file
